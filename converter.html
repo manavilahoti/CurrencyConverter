@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="converter.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Outfit' rel='stylesheet'>
+
+
+</head>
+<body>
+    <div class="container">
+        <h1 class="heading">Currency Converter</h1>
+        <div class="rate">
+            <div class="rate1"></div>
+            <div class="rate2"></div>
+        </div>
+        <div class="conversion">
+            <div class="begin">From:</div>
+            <div class="end">To:</div>
+        </div>
+        <div class="main">
+            <div class="initial">
+                <div class="options"><select></select></div>
+                <div class="input"><input type="number"></div>
+            </div>
+            <span class="material-icons swap" style="font-size: 40px;">
+                swap_horiz
+            </span>
+            <div class="target">
+                <div class="options"><select></select></div>
+                <div class="input"><input disabled type="number"></div>
+            </div>
+        </div>
+    <button class="result">CONVERT</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
